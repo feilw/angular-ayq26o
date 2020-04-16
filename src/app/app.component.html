@@ -26,3 +26,14 @@
 <p *ngIf="user.nama">
   nama user : {{user.nama}}
 </p>
+
+<ng-template *ngIf = "show;then showBlock; else notShowBlock">
+</ng-template>
+
+<ng-template #showBlock>
+<p> ini Show Block </p>
+</ng-template>
+
+<ng-template #notShowBlock>
+<p> ini NOT Show Block </p>
+</ng-template>
