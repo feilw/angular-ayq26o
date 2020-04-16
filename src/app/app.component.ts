@@ -23,4 +23,12 @@ export class AppComponent {
   user = {
     nama : 'abc'
   };
+
+  a = 4;
+  b = 5;
+
+  Pesan = '';
+  KlikButton() {
+    this.Pesan = 'Tombol di tekan';
+  }
 }
