@@ -24,8 +24,6 @@ export class AppComponent {
     nama : 'abc'
   };
 
-  a = 4;
-  b = 5;
 
   Pesan = '';
   KlikButton() {
